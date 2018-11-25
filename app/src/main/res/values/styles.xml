@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorRed</item>
+        <item name="colorPrimaryDark">@color/colorCanvasBlue</item>
+        <item name="colorAccent">@color/colorOcean</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorCanvasBlue2</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--
+    <style name="Widget.AppCompat.EditText." parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:layout_margin">@dimen/margin_large</item>
+        <item name="android:borderlessButtonStyle">@drawable/edittext_purple_test</item>
+    </style>
+
+
+    <style name="Base.TextAppearance.AppCompat." parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="textColor">@color/colorWhite</item>
+        <item name="textSize">@dimen/margin_normal</item>
+    </style>
+-->
+</resources>

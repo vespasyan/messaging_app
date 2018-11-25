@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "694413009216",
+    "firebase_url": "https://metaphor-27825.firebaseio.com",
+    "project_id": "metaphor-27825",
+    "storage_bucket": "metaphor-27825.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694413009216:android:fc86daaa3137fda9",
+        "android_client_info": {
+          "package_name": "tech.metaphor.www.metaphor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694413009216-bvhtn7e65dgnbtgdkjsv7ttlv8156fe3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.metaphor.www.metaphor",
+            "certificate_hash": "449dc7273d147324af5705f9045779d31c8ec817"
+          }
+        },
+        {
+          "client_id": "694413009216-cn5hdu66lqoa85e5hp81d1v23p5i5nsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBajlqh8yPHlfmw3c-xDcimpeK5k5OpTL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694413009216-cn5hdu66lqoa85e5hp81d1v23p5i5nsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

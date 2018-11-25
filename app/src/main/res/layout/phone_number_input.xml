@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/input_screen_background"
+    android:orientation="vertical"
+    tools:context=".PhoneNumberInputActivity">
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/input_button_shadow_layer"
+        android:clickable="true"
+        android:contentDescription="@string/send"
+        android:contextClickable="true"
+        android:shadowColor="@color/colorCanvasBlue"
+        android:text="Send my Phone Number"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp"
+        android:translationY="@dimen/margin_extra_large"/>
+
+
+    <android.support.v7.widget.AppCompatEditText
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:backgroundTint="@color/colorBlue2"
+        android:id="@+id/editPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="218dp"
+
+        android:cursorVisible="false"
+        android:ems="9"
+        android:hint="532 591 7133"
+        android:inputType="phone"
+        android:paddingVertical="3dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlue2"
+        android:textColorHighlight="@color/colorWhite"
+        android:textColorHint="@color/colorOcean"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/errorView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="198dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorGray"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:elevation="@dimen/margin_large"/>
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        app:ccp_contentColor="@color/colorBlue2"
+        app:ccp_autoDetectCountry="true"/>
+
+    <TextView
+        android:id="@+id/textWait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorWhite"/>
+
+
+    <!--
+        <TextView
+            android:id="@+id/dForgetView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:background="@drawable/blue_red_gradient"
+            android:textAlignment="center"
+            android:textColor="@color/colorLightBlue"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    -->
+
+</RelativeLayout>

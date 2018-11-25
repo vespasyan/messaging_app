@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_set_relative"
+    android:background="@color/colorCanvasBlue"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tech.metaphor.www.metaphor.UserSettingsActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_centerInParent="true"
+
+        android:background="@color/colorCanvasBlue2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/set_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:textStyle="bold"
+
+            android:text="User Name"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/set_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="User Profile Status"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/change_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTurquoise"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorCanvasBlue"
+            android:layout_marginBottom="2dp"
+            android:text="Change Image"/>
+        <Button
+            android:id="@+id/change_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Status"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorDarkTurquoise"
+            android:layout_marginBottom="0dp"/>
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/set_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/colorWhite"
+        app:civ_border_overlay="true"
+        android:layout_marginTop="113dp"
+        android:src="@drawable/default_image"/>
+
+</RelativeLayout>

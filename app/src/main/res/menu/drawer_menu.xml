@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+        <item android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_person_white_24dp"
+            android:title="Contacts"/>
+        <item android:id="@+id/nav_requests"
+            android:icon="@drawable/ic_person_add_white_24dp"
+            android:title="Requests"/>
+        <item android:id="@+id/nav_new_group"
+            android:icon="@drawable/ic_group_white_24dp"
+            android:title="New Group"/>
+</group>
+
+
+    <item android:title="Behavior">
+<menu>
+                <item
+                    android:id="@+id/nav_call"
+                    android:icon="@drawable/ic_call_white_24dp"
+                    android:title="Call" />
+                <item
+                    android:id="@+id/nav_video_call"
+                    android:icon="@drawable/ic_video_call_white_24dp"
+                    android:title="Video Call" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_white_24dp"
+                android:title="Settings" />
+</menu>
+
+    </item>
+
+</menu>
+

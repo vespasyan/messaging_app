@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radial</title>
+    <style>
+        /* magic gradients! */
+
+        body {
+            background: black radial-gradient(
+                    circle farthest-side at
+                    calc(var(--mouseX, 1) * 1px)
+                    calc(var(--mouseY, 1) * 1px),
+                    hsl(var(--mouseX, 155), 50%, 50%),
+                    hsl(var(--mouseY, 255), 50%, 50%)
+            );
+        }
+
+        /* the rest of the code here is
+           for making the demo look pretty */
+
+        html {
+            height: 100%;
+            font: 1em/1.5 sans-serif;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100%;
+            margin: 0;
+        }
+
+        body:after {
+
+            background: hsla(0, 0%, 0%, .3);
+            color: #fff;
+            padding: 10px;
+            align-self: center;
+            pointer-events: none;
+        }
+
+
+    </style>
+</head>
+<body>
+<script src="slow_particles.js">
+
+</script>
+
+</body>
+</html>
